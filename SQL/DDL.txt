@@ -1,0 +1,24 @@
+
+CREATE
+
+CREATE DATABASE may10se;
+
+use may10se;
+
+CREATE TABLE student(sid int PRIMARY KEY ,studentname varchar(50) ,email varchar(50),contact varchar(10))
+
+
+ALTER
+DESC student
+
+ALTER TABLE student add COLUMN address varchar(250)
+
+ALTER TABLE student CHANGE address  studentadd varchar(200)
+
+ALTER TABLE student DROP COLUMN studentadd
+
+
+DROP
+DROP TABLE student
+
+DROP DATABASE may10se

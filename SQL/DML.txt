@@ -1,0 +1,22 @@
+Dml:
+
+Insert
+
+
+
+INSERT INTO student(sid,studentname,email,contact)VALUES(101,"Ibrahim","Ibrahim@gmail.com","90998989");
+
+INSERT INTO student(sid,studentname,email,contact)VALUES(102,"jenil","jenil@gmail.com","90998989");
+
+INSERT INTO student(sid,studentname,email,contact)VALUES(103,"Dhruvin","dhruvin@gmail.com","90998989");
+
+INSERT INTO student(sid,studentname,email,contact)VALUES(104,"Swapnil","swapnil@gmail.com","90998989");
+
+Update
+
+UPDATE  student SET contact="808880999" WHERE studentname="Dhruvin"
+
+
+
+DELETE
+DELETE FROM student WHERE studentname='Swapnil'
